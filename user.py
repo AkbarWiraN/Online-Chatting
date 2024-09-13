@@ -15,7 +15,7 @@ def receive_messages(sock):
 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('167.71.214.226', 5555)) 
+client.connect(('111.111.111', 5555)) 
 
 username = input("Enter your username: ")
 client.send(username.encode('utf-8'))
